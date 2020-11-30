@@ -35,7 +35,6 @@ def get_images(dir):
         image=preprocess_image(image_file)
         images.append(image)
     images = np.array(images)
-    images = images/255.0
     return images
 
 
